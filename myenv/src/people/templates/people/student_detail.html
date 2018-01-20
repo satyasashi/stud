@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{student.name}}</h1>
+<p>Education: {{student.studied}} {{student.stream}}</p>
+<p>College: {{student.college}}, {{student.location}}, Created: <i>{{student.timestamp}}</i>, 
+	Updated: <i>{{student.updated}}</i></p>
+
+
+{% endblock %}

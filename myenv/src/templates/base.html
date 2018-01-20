@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to somesite</title>
+</head>
+<body>
+
+	{% include 'snippets/nav.html' %}
+
+	<div class="container">
+		{% block content %}
+		{% endblock %}	
+	</div>
+
+	{% include 'snippets/footer.html' %}
+</body>
+</html>
